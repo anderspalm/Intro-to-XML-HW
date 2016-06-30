@@ -146,17 +146,22 @@ Look at the following code/file and answer the questions below:
 ```
 
  1. How many elements does this xml file have?
+ 
      There are 7 
 
  2. What is a namespace in this example?
+ 
     xmlns:android="http://schemas.android.com/apk/res/android"
     package="generalassembly.yuliyakaleda.supportdifferentdevices"
 
  3. Name parent and children elements.
+ 
     application is a parent of activity; intent-filter; action; category; activity; service
     application is a child of manifest
+    child elements are those immediatly below the parent, not any levels lower
 
  4. Find and name empty elements (the ones that do not have content).
+ 
     The second activity element
     action
     category
